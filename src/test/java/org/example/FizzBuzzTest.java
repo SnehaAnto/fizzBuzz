@@ -44,5 +44,8 @@ public class FizzBuzzTest
         assertEquals("Fizz",FizzBuzz.fizzBuzz(6));
         assertEquals("7",FizzBuzz.fizzBuzz(7));
         assertEquals("Buzz",FizzBuzz.fizzBuzz(10));
+        assertEquals("11",FizzBuzz.fizzBuzz(11));
+        assertEquals("FizzBuzz",FizzBuzz.fizzBuzz(15));
+        assertEquals("FizzBuzz",FizzBuzz.fizzBuzz(45));
     }
 }
