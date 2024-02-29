@@ -16,6 +16,7 @@ public class FizzBuzz {
         if (num == 1 || num == 2) {
             return String.valueOf(num);
         }
+
         return "hello";
 
     }
