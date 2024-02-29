@@ -19,7 +19,7 @@ public class FizzBuzz {
         if (num % 3 == 0) {
             return "Fizz";
         }
-        return "hello";
+        return "Buzz";
 
     }
 }
