@@ -19,7 +19,9 @@ public class FizzBuzz {
         if (num % 3 == 0) {
             return "Fizz";
         }
-        return "Buzz";
-
+        if (num % 5 == 0) {
+            return "Buzz";
+        }
+        return "FizzBuzz";
     }
 }
