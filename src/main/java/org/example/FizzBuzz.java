@@ -12,7 +12,11 @@ public class FizzBuzz {
     }
 
     public static String fizzBuzz(int num) {
-       return "Hello";
+
+        if (num == 1 || num == 2) {
+            return String.valueOf(num);
+        }
+        return "hello";
 
     }
 }
